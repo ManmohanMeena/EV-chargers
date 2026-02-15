@@ -1,5 +1,3 @@
-Perfect 👍 — I will write you a **professional, industry-level README.md** that:
-
 # Modelling Electric Vehicle (EV) Charging Infrastructure using Microscopic Traffic Simulation (SUMO)
 
 ## Overview
