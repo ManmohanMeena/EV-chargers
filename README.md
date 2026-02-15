@@ -1,20 +1,8 @@
 Perfect 👍 — I will write you a **professional, industry-level README.md** that:
 
-✅ clearly explains the workflow
-✅ looks strong on GitHub (recruiter + BPCL friendly)
-✅ highlights simulation + data science + transport planning skills
-✅ structured like real research/project repos.
+# Modelling Electric Vehicle (EV) Charging Infrastructure using Microscopic Traffic Simulation (SUMO)
 
-You can directly copy-paste this.
-
----
-
-# 🚀 **README.md (Professional Version)**
-
-```md
-# 🚗 Modelling Electric Vehicle (EV) Charging Infrastructure using Microscopic Traffic Simulation (SUMO)
-
-## 📌 Overview
+## Overview
 
 This project focuses on modelling and optimizing Electric Vehicle (EV) charging infrastructure for Surat city using microscopic traffic simulation. The workflow integrates transportation demand modelling, GIS analysis, clustering algorithms, and SUMO-based EV simulations to identify optimal charging station locations.
 
@@ -28,7 +16,7 @@ The main objective is to:
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 - Creation of Traffic Analysis Zones (TAZs) using land-use and demographic data.
 - OD Matrix generation for travel demand modelling.
@@ -40,7 +28,7 @@ The main objective is to:
 
 ---
 
-## 🗺️ Study Area
+## Study Area
 
 The study focuses on Surat city, India.
 
@@ -59,7 +47,7 @@ Example TAZ visualization:
 
 ## ⚙️ Methodology
 
-### 1️⃣ Data Preparation
+### Data Preparation
 
 - Created TAZs using land-use and spatial datasets.
 - Generated centroids for zones.
@@ -67,7 +55,7 @@ Example TAZ visualization:
 
 ---
 
-### 2️⃣ OD Matrix Generation
+### OD Matrix Generation
 
 Trips were estimated using:
 
@@ -79,7 +67,7 @@ OD matrix used as input for vehicle route generation.
 
 ---
 
-### 3️⃣ SUMO Simulation Setup
+### SUMO Simulation Setup
 
 Components:
 
@@ -91,7 +79,7 @@ EV battery behaviour simulated during trips.
 
 ---
 
-### 4️⃣ Extracting Discharged EV Locations
+### Extracting Discharged EV Locations
 
 Using TraCI:
 
@@ -104,7 +92,7 @@ Example output:
 
 ---
 
-### 5️⃣ Charging Station Optimization
+### Charging Station Optimization
 
 Applied K-Means clustering on low battery locations:
 
@@ -117,7 +105,7 @@ Example:
 
 ---
 
-### 6️⃣ Validation Through Simulation
+### Validation Through Simulation
 
 Charging stations deployed into SUMO:
 
@@ -159,23 +147,6 @@ Unoptimized:
 
 ---
 
-## Project Structure
-
-```
-
-├── 2345net.net.xml
-├── routes_electric_1500.rou.xml
-├── battery_devices_1500_final1.add.xml
-├── TAJ234.geojson
-├── cluster_making.py
-├── cluster_load.py
-├── discharged_batteries_with_TAJ.py
-├── config_optimized.sumo.cfg
-├── README.md
-
-```
-
-
 
 ## Key Insights
 
@@ -192,13 +163,5 @@ Unoptimized:
 - Dynamic charging demand forecasting.
 - Real-world traffic calibration.
 
----
 
-## Author
-
-Manmohan Meena  
-B.Tech Civil Engineering  
-IIT Gandhinagar
-
----
 
